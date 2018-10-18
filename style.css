@@ -1,0 +1,18 @@
+.tabel{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabel th{
+    color: white;
+    background-color: grey;
+    border: 3px solid black;
+    text-align: left;
+  }
+  
+  .tabel td{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+  }
+  
