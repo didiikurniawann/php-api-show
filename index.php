@@ -21,7 +21,7 @@
   // 2. Buat perintah SQL untuk menampilkan data
   $sql_tampil ="SELECT * FROM users";
   // 3. Jalankan perintah diatas dengan fungsi mysqli_query
-  $peserta=mysqli_query($koneksi,$sql_tampil);
+  $peserta=mysqli_query($conn,$sql_tampil);
   // 4. Lakukan fetch dengan result type MYSQL_ASSOC
   while($baris_data=mysqli_fetch_array($peserta,MYSQLI_ASSOC)){
   	echo'
